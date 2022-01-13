@@ -1,0 +1,7 @@
+.env
+venv/
+.idea/*
+Docker-compose.yml
+Dockerfile
+__pycache__/
+city.list.json
