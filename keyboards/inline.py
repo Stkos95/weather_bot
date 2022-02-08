@@ -5,8 +5,12 @@ weather = InlineKeyboardMarkup(row_width=2)
 
 
 weather.add(InlineKeyboardButton(
-    text='Узнать погоду',# узнать погоду
-    callback_data='weather')
+    text='Узнать погоду',
+    callback_data='weather'),
+    InlineKeyboardButton(
+        text='Игра в викторину',
+        callback_data='quiz'
+    )
 )
 
 

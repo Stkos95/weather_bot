@@ -1,6 +1,5 @@
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from keyboards.callbackdatas import task_callback, like_callback
-import emoji
 task_kb = InlineKeyboardMarkup(inline_keyboard=[
     [
         InlineKeyboardButton(text="Купить товар",callback_data=task_callback.new(id_item='321'))

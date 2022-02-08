@@ -7,3 +7,9 @@ class Weather_current(StatesGroup):
 class Weather_forecast(StatesGroup):
     F1 = State()
     F2 = State()
+
+
+
+class QuizGame(StatesGroup):
+    quiz_1 = State()
+
